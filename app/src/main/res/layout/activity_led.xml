@@ -98,6 +98,15 @@
         android:layout_height="371dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="54dp"
+        android:visibility="invisible"
         andorid:srcCompat="@drawable/led_light_on" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        android:background="#00FFFFFF"
+        android:visibility="visible"
+        andorid:srcCompat="@drawable/led_light_off" />
 
 </RelativeLayout>
