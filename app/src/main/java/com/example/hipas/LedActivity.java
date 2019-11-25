@@ -1,18 +1,12 @@
 package com.example.hipas;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 
-import com.github.mikephil.charting.data.Entry;
-
-import java.util.ArrayList;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class LedActivity extends AppCompatActivity {
@@ -49,7 +43,6 @@ public class LedActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         String test = "https://scv0319.cafe24.com/hipas/ledCheck.php?option=1";
                         URLConnector task = new URLConnector(test);
-
 
                         task.start();
 
