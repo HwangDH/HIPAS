@@ -80,7 +80,6 @@ public class LedActivity extends AppCompatActivity {
                         String test = "https://scv0319.cafe24.com/hipas/ledCheck.php?option=0";
                         URLConnector task = new URLConnector(test);
 
-
                         task.start();
 
                         try {
@@ -89,7 +88,6 @@ public class LedActivity extends AppCompatActivity {
                         } catch (InterruptedException e) {
 
                         }
-
                         String result = task.getResult();
                     }
                 });
